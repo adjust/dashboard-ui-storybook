@@ -76,6 +76,34 @@ $size: 42px;
     }
   }
 
+  .base-platforms {
+    @extend .flex-box-column;
+    margin-bottom: 16px;
+
+    li {
+      display: block;
+      border-right: none;
+      width: 100%;
+
+      .badge {
+        fill: $btn-color-bg;
+        height: 21px;
+
+        .icon-windows-phone {
+          height: 22px;
+        }
+
+        .icon-windows {
+          height: 19px;
+        }
+
+        &.active {
+          fill: $btn-color-bg;
+        }
+      }
+    }
+  }
+
   .app-summary {
     position: absolute;
     bottom: 0;

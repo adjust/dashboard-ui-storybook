@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: "iconfont";
-  src: url('/assets/fonts/iconfont/iconfont.aabe5716a654c95ccc8d.eot');
-  src: url('/assets/fonts/iconfont/iconfont.aabe5716a654c95ccc8d.eot#iefix') format('eot'),
-    url('/assets/fonts/iconfont/iconfont.aabe5716a654c95ccc8d.woff2') format('woff2'),
-    url('/assets/fonts/iconfont/iconfont.aabe5716a654c95ccc8d.woff') format('woff'),
-    url('/assets/fonts/iconfont/iconfont.aabe5716a654c95ccc8d.ttf') format('truetype'),
-    url('/assets/fonts/iconfont/iconfont.aabe5716a654c95ccc8d.svg#iconfont') format('svg');
+  src: url('/assets/fonts/iconfont/iconfont.ebcde28c34c556817ae1.eot');
+  src: url('/assets/fonts/iconfont/iconfont.ebcde28c34c556817ae1.eot#iefix') format('eot'),
+    url('/assets/fonts/iconfont/iconfont.ebcde28c34c556817ae1.woff2') format('woff2'),
+    url('/assets/fonts/iconfont/iconfont.ebcde28c34c556817ae1.woff') format('woff'),
+    url('/assets/fonts/iconfont/iconfont.ebcde28c34c556817ae1.ttf') format('truetype'),
+    url('/assets/fonts/iconfont/iconfont.ebcde28c34c556817ae1.svg#iconfont') format('svg');
 }
 
 @mixin icon-styles {
@@ -51,380 +51,392 @@
   @if $name == amount {
     $char: "\f106";
   }
-  @if $name == android {
+  @if $name == android-tv {
     $char: "\f107";
   }
-  @if $name == api {
+  @if $name == android {
     $char: "\f108";
   }
-  @if $name == apps {
+  @if $name == api {
     $char: "\f109";
   }
-  @if $name == apptrace {
+  @if $name == apps {
     $char: "\f10a";
   }
-  @if $name == arrow-down {
+  @if $name == apptrace {
     $char: "\f10b";
   }
-  @if $name == arrow-left-alt {
+  @if $name == arrow-down {
     $char: "\f10c";
   }
-  @if $name == arrow-left {
+  @if $name == arrow-left-alt {
     $char: "\f10d";
   }
-  @if $name == arrow-right-alt {
+  @if $name == arrow-left {
     $char: "\f10e";
   }
-  @if $name == arrow-right {
+  @if $name == arrow-right-alt {
     $char: "\f10f";
   }
-  @if $name == arrow-up {
+  @if $name == arrow-right {
     $char: "\f110";
   }
-  @if $name == attributions {
+  @if $name == arrow-up {
     $char: "\f111";
   }
-  @if $name == audience-hollow {
+  @if $name == attributions {
     $char: "\f112";
   }
-  @if $name == audience {
+  @if $name == audience-hollow {
     $char: "\f113";
   }
-  @if $name == back-arrow {
+  @if $name == audience {
     $char: "\f114";
   }
-  @if $name == bar-chart {
+  @if $name == back-arrow {
     $char: "\f115";
   }
-  @if $name == bug-report {
+  @if $name == bar-chart {
     $char: "\f116";
   }
-  @if $name == checkmark {
+  @if $name == bug-report {
     $char: "\f117";
   }
-  @if $name == clipboard {
+  @if $name == checkmark {
     $char: "\f118";
   }
-  @if $name == clock {
+  @if $name == clipboard {
     $char: "\f119";
   }
-  @if $name == close {
+  @if $name == clock {
     $char: "\f11a";
   }
-  @if $name == cog {
+  @if $name == close {
     $char: "\f11b";
   }
-  @if $name == column-select {
+  @if $name == cog {
     $char: "\f11c";
   }
-  @if $name == company {
+  @if $name == column-select {
     $char: "\f11d";
   }
-  @if $name == control-center {
+  @if $name == company {
     $char: "\f11e";
   }
-  @if $name == copy {
+  @if $name == control-center {
     $char: "\f11f";
   }
-  @if $name == custom-attribution-outline {
+  @if $name == copy {
     $char: "\f120";
   }
-  @if $name == data-privacy {
+  @if $name == custom-attribution-outline {
     $char: "\f121";
   }
-  @if $name == deeplink {
+  @if $name == data-privacy {
     $char: "\f122";
   }
-  @if $name == diners-club {
+  @if $name == deeplink {
     $char: "\f123";
   }
-  @if $name == discover {
+  @if $name == diners-club {
     $char: "\f124";
   }
-  @if $name == docs {
+  @if $name == discover {
     $char: "\f125";
   }
-  @if $name == download {
+  @if $name == docs {
     $char: "\f126";
   }
-  @if $name == draggable {
+  @if $name == download {
     $char: "\f127";
   }
-  @if $name == due-date {
+  @if $name == draggable {
     $char: "\f128";
   }
-  @if $name == email {
+  @if $name == due-date {
     $char: "\f129";
   }
-  @if $name == equal {
+  @if $name == email {
     $char: "\f12a";
   }
-  @if $name == error-elephant {
+  @if $name == equal {
     $char: "\f12b";
   }
-  @if $name == export {
+  @if $name == error-elephant {
     $char: "\f12c";
   }
-  @if $name == facebook {
+  @if $name == export {
     $char: "\f12d";
   }
-  @if $name == filter-alt {
+  @if $name == facebook {
     $char: "\f12e";
   }
-  @if $name == filter-var {
+  @if $name == filter-alt {
     $char: "\f12f";
   }
-  @if $name == filter {
+  @if $name == filter-var {
     $char: "\f130";
   }
-  @if $name == gear-box {
+  @if $name == filter {
     $char: "\f131";
   }
-  @if $name == gear {
+  @if $name == fire-tv {
     $char: "\f132";
   }
-  @if $name == generate-report {
+  @if $name == gear-box {
     $char: "\f133";
   }
-  @if $name == generic {
+  @if $name == gear {
     $char: "\f134";
   }
-  @if $name == google {
+  @if $name == generate-report {
     $char: "\f135";
   }
-  @if $name == graph {
+  @if $name == generic {
     $char: "\f136";
   }
-  @if $name == info-round {
+  @if $name == google {
     $char: "\f137";
   }
-  @if $name == ios {
+  @if $name == graph {
     $char: "\f138";
   }
-  @if $name == ipad {
+  @if $name == info-round {
     $char: "\f139";
   }
-  @if $name == iphone {
+  @if $name == ios {
     $char: "\f13a";
   }
-  @if $name == italic-link {
+  @if $name == ipad {
     $char: "\f13b";
   }
-  @if $name == jcb {
+  @if $name == iphone {
     $char: "\f13c";
   }
-  @if $name == language {
+  @if $name == italic-link {
     $char: "\f13d";
   }
-  @if $name == link-cost-tracker {
+  @if $name == jcb {
     $char: "\f13e";
   }
-  @if $name == link {
+  @if $name == language {
     $char: "\f13f";
   }
-  @if $name == list {
+  @if $name == link-cost-tracker {
     $char: "\f140";
   }
-  @if $name == mail {
+  @if $name == link {
     $char: "\f141";
   }
-  @if $name == mastercard {
+  @if $name == list {
     $char: "\f142";
   }
-  @if $name == minus-round {
+  @if $name == mail {
     $char: "\f143";
   }
-  @if $name == next-circle {
+  @if $name == mastercard {
     $char: "\f144";
   }
-  @if $name == notification {
+  @if $name == minus-round {
     $char: "\f145";
   }
-  @if $name == number {
+  @if $name == next-circle {
     $char: "\f146";
   }
-  @if $name == ok-round {
+  @if $name == notification {
     $char: "\f147";
   }
-  @if $name == open-link {
+  @if $name == number {
     $char: "\f148";
   }
-  @if $name == partner-setup {
+  @if $name == ok-round {
     $char: "\f149";
   }
-  @if $name == password {
+  @if $name == open-link {
     $char: "\f14a";
   }
-  @if $name == pencil {
+  @if $name == partner-setup {
     $char: "\f14b";
   }
-  @if $name == pie-chart {
+  @if $name == password {
     $char: "\f14c";
   }
-  @if $name == pin {
+  @if $name == pencil {
     $char: "\f14d";
   }
-  @if $name == play-store {
+  @if $name == pie-chart {
     $char: "\f14e";
   }
-  @if $name == play {
+  @if $name == pin {
     $char: "\f14f";
   }
-  @if $name == plus-alt {
+  @if $name == play-store {
     $char: "\f150";
   }
-  @if $name == plus-round {
+  @if $name == play {
     $char: "\f151";
   }
-  @if $name == plus {
+  @if $name == plus-alt {
     $char: "\f152";
   }
-  @if $name == power {
+  @if $name == plus-round {
     $char: "\f153";
   }
-  @if $name == preset-add {
+  @if $name == plus {
     $char: "\f154";
   }
-  @if $name == preset-update {
+  @if $name == power {
     $char: "\f155";
   }
-  @if $name == prev-circle {
+  @if $name == preset-add {
     $char: "\f156";
   }
-  @if $name == print {
+  @if $name == preset-update {
     $char: "\f157";
   }
-  @if $name == pushpin {
+  @if $name == prev-circle {
     $char: "\f158";
   }
-  @if $name == radio-checked {
+  @if $name == print {
     $char: "\f159";
   }
-  @if $name == radio-unchecked {
+  @if $name == pushpin {
     $char: "\f15a";
   }
-  @if $name == report {
+  @if $name == radio-checked {
     $char: "\f15b";
   }
-  @if $name == revenue-users {
+  @if $name == radio-unchecked {
     $char: "\f15c";
   }
-  @if $name == save {
+  @if $name == report {
     $char: "\f15d";
   }
-  @if $name == search {
+  @if $name == revenue-users {
     $char: "\f15e";
   }
-  @if $name == secrets {
+  @if $name == roku-tv {
     $char: "\f15f";
   }
-  @if $name == see {
+  @if $name == samsung-tv {
     $char: "\f160";
   }
-  @if $name == segmentation-feature-1 {
+  @if $name == save {
     $char: "\f161";
   }
-  @if $name == segmentation-feature-2 {
+  @if $name == search {
     $char: "\f162";
   }
-  @if $name == segmentation-feature-3 {
+  @if $name == secrets {
     $char: "\f163";
   }
-  @if $name == settings {
+  @if $name == see {
     $char: "\f164";
   }
-  @if $name == show {
+  @if $name == segmentation-feature-1 {
     $char: "\f165";
   }
-  @if $name == spinner1 {
+  @if $name == segmentation-feature-2 {
     $char: "\f166";
   }
-  @if $name == spinner2 {
+  @if $name == segmentation-feature-3 {
     $char: "\f167";
   }
-  @if $name == spinner3 {
+  @if $name == settings {
     $char: "\f168";
   }
-  @if $name == spinner4 {
+  @if $name == show {
     $char: "\f169";
   }
-  @if $name == star-full {
+  @if $name == spinner1 {
     $char: "\f16a";
   }
-  @if $name == star-half-left {
+  @if $name == spinner2 {
     $char: "\f16b";
   }
-  @if $name == star-half-right {
+  @if $name == spinner3 {
     $char: "\f16c";
   }
-  @if $name == table {
+  @if $name == spinner4 {
     $char: "\f16d";
   }
-  @if $name == tag {
+  @if $name == star-full {
     $char: "\f16e";
   }
-  @if $name == tags {
+  @if $name == star-half-left {
     $char: "\f16f";
   }
-  @if $name == times {
+  @if $name == star-half-right {
     $char: "\f170";
   }
-  @if $name == timespan {
+  @if $name == table {
     $char: "\f171";
   }
-  @if $name == trash {
+  @if $name == tag {
     $char: "\f172";
   }
-  @if $name == tree {
+  @if $name == tags {
     $char: "\f173";
   }
-  @if $name == triangle-top {
+  @if $name == times {
     $char: "\f174";
   }
-  @if $name == twitter {
+  @if $name == timespan {
     $char: "\f175";
   }
-  @if $name == two-factor {
+  @if $name == trash {
     $char: "\f176";
   }
-  @if $name == two-gears {
+  @if $name == tree {
     $char: "\f177";
   }
-  @if $name == undo {
+  @if $name == triangle-top {
     $char: "\f178";
   }
-  @if $name == universal {
+  @if $name == twitter {
     $char: "\f179";
   }
-  @if $name == unsee {
+  @if $name == two-factor {
     $char: "\f17a";
   }
-  @if $name == upload {
+  @if $name == two-gears {
     $char: "\f17b";
   }
-  @if $name == user-outline {
+  @if $name == undo {
     $char: "\f17c";
   }
-  @if $name == user {
+  @if $name == universal {
     $char: "\f17d";
   }
-  @if $name == users {
+  @if $name == unsee {
     $char: "\f17e";
   }
-  @if $name == visa {
+  @if $name == upload {
     $char: "\f17f";
   }
-  @if $name == warning {
+  @if $name == user-outline {
     $char: "\f180";
   }
-  @if $name == web {
+  @if $name == user {
     $char: "\f181";
   }
-  @if $name == windows-phone {
+  @if $name == users {
     $char: "\f182";
   }
-  @if $name == windows {
+  @if $name == visa {
     $char: "\f183";
+  }
+  @if $name == warning {
+    $char: "\f184";
+  }
+  @if $name == web {
+    $char: "\f185";
+  }
+  @if $name == windows-phone {
+    $char: "\f186";
+  }
+  @if $name == windows {
+    $char: "\f187";
   }
 
   @return $char;
@@ -458,6 +470,9 @@
 }
 .icon-amount {
   @include icon(amount);
+}
+.icon-android-tv {
+  @include icon(android-tv);
 }
 .icon-android {
   @include icon(android);
@@ -584,6 +599,9 @@
 }
 .icon-filter {
   @include icon(filter);
+}
+.icon-fire-tv {
+  @include icon(fire-tv);
 }
 .icon-gear-box {
   @include icon(gear-box);
@@ -716,6 +734,12 @@
 }
 .icon-revenue-users {
   @include icon(revenue-users);
+}
+.icon-roku-tv {
+  @include icon(roku-tv);
+}
+.icon-samsung-tv {
+  @include icon(samsung-tv);
 }
 .icon-save {
   @include icon(save);
